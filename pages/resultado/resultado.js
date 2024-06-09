@@ -43,7 +43,7 @@ sectionPontuacao.innerHTML = `
 function jogarNovamente() {
     localStorage.removeItem("pontos")
     localStorage.removeItem("assunto")
-    
+
     window.location.href = "../../index.html"
 }
 
